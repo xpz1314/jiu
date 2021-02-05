@@ -1,0 +1,587 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": 123456,
+      "roleName": "经理",
+      "roleState": true,
+      "default": true,
+      "roleType": 3
+    },
+    {
+      "username": "aaa",
+      "password": "123",
+      "roleName": "店长",
+      "roleState": true,
+      "default": false,
+      "roleType": 2,
+      "id": 2
+    },
+    {
+      "username": "bbb",
+      "password": "123",
+      "roleName": "员工",
+      "roleState": true,
+      "default": false,
+      "roleType": 1,
+      "id": 3
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleName": "经理",
+      "roleType": 3,
+      "list": []
+    },
+    {
+      "id": 2,
+      "roleName": "店长",
+      "roleType": 2,
+      "list": []
+    },
+    {
+      "id": 3,
+      "roleName": "员工",
+      "roleType": 1,
+      "list": []
+    }
+  ],
+  "rights": [
+    {
+      "id": 0,
+      "title": "首页",
+      "grade": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 1,
+      "title": "已订房间",
+      "grade": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "title": "创建房间",
+      "grade": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "title": "房间更新",
+      "grade": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "title": "房间预览",
+      "grade": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "title": "房间信息",
+      "grade": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "title": "用户列表",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "title": "添加用户",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 8,
+      "title": "删除用户",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 9,
+      "title": "修改用户",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 10,
+      "title": "角色列表",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 11,
+      "title": "权限列表",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 12,
+      "title": "添加角色",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 13,
+      "title": "修改角色",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 14,
+      "title": "删除角色",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "title": "房间管理",
+      "grade": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 16,
+      "title": "权限管理",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "title": "用户管理",
+      "grade": [
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "title": "数据统计",
+      "grade": [
+        3
+      ]
+    }
+  ],
+  "fangjian": [
+    {
+      "id": 0,
+      "title": 501,
+      "default": true,
+      "username": "李四",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 1,
+      "title": 502,
+      "default": true,
+      "username": "李四",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 2,
+      "title": 503,
+      "default": true,
+      "username": "张大",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 3,
+      "title": 504,
+      "default": true,
+      "username": "张珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 4,
+      "title": 505,
+      "default": true,
+      "username": "张开发",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 5,
+      "title": 506,
+      "default": true,
+      "username": "张facade",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 6,
+      "title": 507,
+      "default": true,
+      "username": "张珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 7,
+      "title": 508,
+      "default": true,
+      "username": "张dasds珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 8,
+      "title": 509,
+      "default": true,
+      "username": "张珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 9,
+      "title": 510,
+      "default": true,
+      "username": "张dcc珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 10,
+      "title": 511,
+      "default": true,
+      "username": "张珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 11,
+      "title": 512,
+      "default": true,
+      "username": "hah",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 12,
+      "title": 513,
+      "default": true,
+      "username": "张珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 13,
+      "title": 501,
+      "default": true,
+      "username": " 大",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 14,
+      "title": 514,
+      "default": true,
+      "username": "爱吃的",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 15,
+      "title": 515,
+      "default": true,
+      "username": "的擦",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 16,
+      "title": 516,
+      "default": true,
+      "username": "成都车展",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 17,
+      "title": 517,
+      "default": true,
+      "username": "张差珊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 18,
+      "title": 518,
+      "default": true,
+      "username": " 擦擦",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 19,
+      "title": 519,
+      "default": true,
+      "username": "擦得分",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 20,
+      "title": 520,
+      "default": true,
+      "username": "风lla ",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 21,
+      "title": 521,
+      "default": true,
+      "username": "飞啊飞",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 22,
+      "title": 522,
+      "default": true,
+      "username": "飞啊飞",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 23,
+      "title": 523,
+      "default": true,
+      "username": "feature",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 24,
+      "title": 524,
+      "default": true,
+      "username": "feature",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 25,
+      "title": 525,
+      "default": true,
+      "username": "分发啊",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 26,
+      "title": 526,
+      "default": true,
+      "username": "法尔",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 27,
+      "title": 527,
+      "default": true,
+      "username": "发个图",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 28,
+      "title": 528,
+      "default": true,
+      "username": "微风爱国",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 29,
+      "title": 529,
+      "default": true,
+      "username": "噶尔",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 30,
+      "title": 530,
+      "default": true,
+      "username": "个个",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 31,
+      "title": 531,
+      "default": true,
+      "username": "个额",
+      "shenfen": 210283200084845700
+    },
+    {
+      "id": 32,
+      "title": 601,
+      "default": false
+    },
+    {
+      "id": 33,
+      "title": 602,
+      "default": false
+    },
+    {
+      "id": 34,
+      "title": 603,
+      "default": false
+    },
+    {
+      "id": 35,
+      "title": 604,
+      "default": false
+    },
+    {
+      "id": 36,
+      "title": 605,
+      "default": false
+    },
+    {
+      "id": 37,
+      "title": 606,
+      "default": false
+    },
+    {
+      "id": 38,
+      "title": 607,
+      "default": false
+    },
+    {
+      "id": 39,
+      "title": 608,
+      "default": false
+    },
+    {
+      "id": 40,
+      "title": 609,
+      "default": false
+    },
+    {
+      "id": 41,
+      "title": 610,
+      "default": false
+    },
+    {
+      "id": 42,
+      "title": 611,
+      "default": false
+    },
+    {
+      "id": 43,
+      "title": 612,
+      "default": false
+    },
+    {
+      "id": 44,
+      "title": 613,
+      "default": false
+    },
+    {
+      "id": 45,
+      "title": 615,
+      "default": false
+    },
+    {
+      "id": 46,
+      "title": 614,
+      "default": false
+    }
+  ],
+  "articles": [
+    {
+      "title": "bbbb--小编22222",
+      "category": [
+        "IT",
+        "前端",
+        "Vue"
+      ],
+      "content": "<p>bbb-11111</p>\n",
+      "author": "bbb",
+      "roleType": 1,
+      "checkState": 1,
+      "id": 1
+    },
+    {
+      "title": "aaa-管理员-1111",
+      "category": [
+        "娱乐",
+        "星座"
+      ],
+      "content": "<p>dawdwa</p>\n",
+      "author": "aaa",
+      "roleType": 2,
+      "checkState": 1,
+      "id": 2
+    },
+    {
+      "title": "bbb-小编-5555555555",
+      "category": [
+        "IT",
+        "Java"
+      ],
+      "content": "<p>dwadwa</p>\n",
+      "author": "bbb",
+      "roleType": 1,
+      "checkState": 1,
+      "id": 4
+    },
+    {
+      "title": "32",
+      "category": [
+        "娱乐",
+        "星座"
+      ],
+      "content": "<p>dwa</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "checkState": 0,
+      "id": 6
+    },
+    {
+      "title": "dwadwadwa",
+      "category": [
+        "娱乐",
+        "星座"
+      ],
+      "content": "<p>dwdwadwa</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "checkState": 1,
+      "id": 7
+    },
+    {
+      "title": "dwadwa",
+      "category": [
+        "IT",
+        "Python"
+      ],
+      "content": "<p>dwa</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "checkState": 2,
+      "id": 8
+    },
+    {
+      "title": "adwa",
+      "category": [
+        "IT",
+        "Python"
+      ],
+      "content": "<p>dwadwa</p>\n",
+      "author": "aaa",
+      "roleType": 2,
+      "checkState": 0,
+      "id": 9
+    }
+  ]
+}
